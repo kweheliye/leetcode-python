@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "leet-code-python"
 version = "0.1.0"
-description = ""
 authors = ["Kamal Hashi <kamalweheliye@gmail.com>"]
+description = "LeetCode Solutions"
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -11,6 +11,7 @@ python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
+
 
 [build-system]
 requires = ["poetry-core"]
